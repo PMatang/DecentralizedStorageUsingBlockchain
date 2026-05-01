@@ -25,7 +25,7 @@ public class FileDAO {
         ps.setInt(1, meta.getOwnerId());
         ps.setString(2, meta.getFileName());
         ps.setString(3, meta.getLocalPath());
-        ps.setString(4, meta.getIpfsCid());      // ← was missing before
+        ps.setString(4, meta.getIpfsCid());      
         ps.setString(5, meta.getPolicyJson());
         ps.setString(6, meta.getAesKeyBase64());
         ps.executeUpdate();
