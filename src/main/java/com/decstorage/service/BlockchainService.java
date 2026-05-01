@@ -31,13 +31,13 @@ public class BlockchainService {
         "http://127.0.0.1:8545";
 
     private static final String PRIVATE_KEY =
-        "0x011248a5d714fe49307e45fc498323ca49647037e90be81cc07644e40aa09124"; // paste from Ganache key icon
+        ""; // paste from Ganache key
 
     private static final String FILE_REGISTRY_ADDRESS =
-        "0x0fC5025C764cE34df352757e82f7B5c4Df39A836";
+        ""; //FileRegistery Contract key here
 
     private static final String ACCESS_CONTROL_ADDRESS =
-        "0xb27A31f1b0AF2946B7F582768f03239b1eC07c2c";
+        ""; //AccessControl Contract key here
     // ────────────────────────────────────────────────────────────
 
     private static Web3j web3j;
