@@ -8,12 +8,12 @@ import java.nio.charset.StandardCharsets;
 public class IPFSService {
 
     // ── CONFIG — paste your Pinata keys here ─────────────────
-    private static final String API_KEY    = "ac432b6c9adbd0da015f";
-    private static final String API_SECRET = "e48efc004615923e9aff234387b689e1f30de9dddd20e92ebf399bfdcfb4228d";
+    private static final String API_KEY    = ""; //API Key here
+    private static final String API_SECRET = ""; //API Secret Key here
     // ─────────────────────────────────────────────────────────
 
     private static final String PINATA_URL =
-        "https://api.pinata.cloud/pinning/pinFileToIPFS";
+        "https://api.pinata.cloud/pinning/pinFileToIPFS"; //Pinata URL here
 
     /**
      * Uploads encrypted bytes to IPFS via Pinata.
